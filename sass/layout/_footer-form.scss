@@ -62,9 +62,9 @@
     border-radius: 4px;
     background-color: inherit;
     outline: transparent;
-    // @media screen and(max-width){
-        
-    // }
+    @media screen and(max-width:480px){
+    width: 100%;    
+    }
     @media screen and (min-width:480px)  {
         width: 450px;
         

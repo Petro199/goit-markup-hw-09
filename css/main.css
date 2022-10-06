@@ -1342,6 +1342,11 @@ body {
   outline: transparent;
   color: white;
 }
+@media screen and (max-width: 480px) {
+  .footer-form__input {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 480px) {
   .footer-form__input {
     width: 450px;
