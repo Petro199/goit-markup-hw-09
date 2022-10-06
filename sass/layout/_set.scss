@@ -1,0 +1,44 @@
+/* Чим ми займаємося */
+
+.set-section {
+    display: none;
+    
+    @media screen and(min-width: 1200px) {
+        
+        padding-top: 0;
+      display: flex;
+    }
+}
+
+.set-section__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.set-section__list {
+    display: flex;
+        gap: 30px;
+}
+
+.set-section__item {
+    position: relative;
+    
+}
+
+.set-section__text {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--white-color);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(47, 48, 58, 0.8);
+}

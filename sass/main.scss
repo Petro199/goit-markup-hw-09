@@ -1,0 +1,32 @@
+// -----Utils-----
+@import './utils/variables';
+
+// -----Base-----
+@import './base/base';
+@import './base/container';
+
+// --------layout-------
+@import './layout/header';
+@import './layout/site-nav';
+@import './layout/site-contact';
+@import './layout/hero';
+@import './layout/advantages';
+@import './layout/set';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/menu';
+
+// -----Portfolio-----
+@import './layout/portfolio-btn';
+@import './layout/portfolio-card';
+
+// -----Footer-----
+@import './layout/footer';
+@import './layout/footer-social';
+@import './layout/footer-form';
+
+// -----Backdrop-----
+@import './layout/backdrop';
+
+// -----modal-----
+@import './layout/modal';
