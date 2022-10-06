@@ -183,10 +183,9 @@ font-weight: 500;
         letter-spacing: 0.02em;
 color: #2196F3;
 &:not(:last-child){
-    padding-right: 10px;}
-        &:not(:first-child) {
-            padding-left: 10px;
-        }
+    padding-right: 10px;
+margin-right: 10px;}
+        
                  @media screen and(max-width:480px) {
                      font-weight: 500;
                      font-size: 14px;
